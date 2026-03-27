@@ -1,0 +1,5 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install playwright requests && playwright install chromium && playwright install-deps chromium",
+  "forwardPorts": []
+}
